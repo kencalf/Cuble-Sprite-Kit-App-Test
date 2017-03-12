@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E846202D1E760A100072FFC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E846202C1E760A100072FFC9 /* AppDelegate.swift */; };
+		E846202F1E760A100072FFC9 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E846202E1E760A100072FFC9 /* GameScene.sks */; };
+		E84620311E760A100072FFC9 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E84620301E760A100072FFC9 /* Actions.sks */; };
+		E84620331E760A100072FFC9 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84620321E760A100072FFC9 /* GameScene.swift */; };
+		E84620351E760A100072FFC9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84620341E760A100072FFC9 /* GameViewController.swift */; };
+		E84620381E760A100072FFC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E84620361E760A100072FFC9 /* Main.storyboard */; };
+		E846203A1E760A100072FFC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E84620391E760A100072FFC9 /* Assets.xcassets */; };
+		E846203D1E760A100072FFC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E846203B1E760A100072FFC9 /* LaunchScreen.storyboard */; };
+		E84620481E760A100072FFC9 /* cubliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84620471E760A100072FFC9 /* cubliTests.swift */; };
+		E84620531E760A100072FFC9 /* cubliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84620521E760A100072FFC9 /* cubliUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E84620441E760A100072FFC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E84620211E760A100072FFC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E84620281E760A100072FFC9;
+			remoteInfo = cubli;
+		};
+		E846204F1E760A100072FFC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E84620211E760A100072FFC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E84620281E760A100072FFC9;
+			remoteInfo = cubli;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E84620291E760A100072FFC9 /* cubli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cubli.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E846202C1E760A100072FFC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E846202E1E760A100072FFC9 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E84620301E760A100072FFC9 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		E84620321E760A100072FFC9 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E84620341E760A100072FFC9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E84620371E760A100072FFC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E84620391E760A100072FFC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E846203C1E760A100072FFC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E846203E1E760A100072FFC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E84620431E760A100072FFC9 /* cubliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cubliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84620471E760A100072FFC9 /* cubliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cubliTests.swift; sourceTree = "<group>"; };
+		E84620491E760A100072FFC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E846204E1E760A100072FFC9 /* cubliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cubliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84620521E760A100072FFC9 /* cubliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cubliUITests.swift; sourceTree = "<group>"; };
+		E84620541E760A100072FFC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E84620261E760A100072FFC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84620401E760A100072FFC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E846204B1E760A100072FFC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E84620201E760A100072FFC9 = {
+			isa = PBXGroup;
+			children = (
+				E846202B1E760A100072FFC9 /* cubli */,
+				E84620461E760A100072FFC9 /* cubliTests */,
+				E84620511E760A100072FFC9 /* cubliUITests */,
+				E846202A1E760A100072FFC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E846202A1E760A100072FFC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E84620291E760A100072FFC9 /* cubli.app */,
+				E84620431E760A100072FFC9 /* cubliTests.xctest */,
+				E846204E1E760A100072FFC9 /* cubliUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E846202B1E760A100072FFC9 /* cubli */ = {
+			isa = PBXGroup;
+			children = (
+				E846202C1E760A100072FFC9 /* AppDelegate.swift */,
+				E846202E1E760A100072FFC9 /* GameScene.sks */,
+				E84620301E760A100072FFC9 /* Actions.sks */,
+				E84620321E760A100072FFC9 /* GameScene.swift */,
+				E84620341E760A100072FFC9 /* GameViewController.swift */,
+				E84620361E760A100072FFC9 /* Main.storyboard */,
+				E84620391E760A100072FFC9 /* Assets.xcassets */,
+				E846203B1E760A100072FFC9 /* LaunchScreen.storyboard */,
+				E846203E1E760A100072FFC9 /* Info.plist */,
+			);
+			path = cubli;
+			sourceTree = "<group>";
+		};
+		E84620461E760A100072FFC9 /* cubliTests */ = {
+			isa = PBXGroup;
+			children = (
+				E84620471E760A100072FFC9 /* cubliTests.swift */,
+				E84620491E760A100072FFC9 /* Info.plist */,
+			);
+			path = cubliTests;
+			sourceTree = "<group>";
+		};
+		E84620511E760A100072FFC9 /* cubliUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E84620521E760A100072FFC9 /* cubliUITests.swift */,
+				E84620541E760A100072FFC9 /* Info.plist */,
+			);
+			path = cubliUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E84620281E760A100072FFC9 /* cubli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E84620571E760A100072FFC9 /* Build configuration list for PBXNativeTarget "cubli" */;
+			buildPhases = (
+				E84620251E760A100072FFC9 /* Sources */,
+				E84620261E760A100072FFC9 /* Frameworks */,
+				E84620271E760A100072FFC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cubli;
+			productName = cubli;
+			productReference = E84620291E760A100072FFC9 /* cubli.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E84620421E760A100072FFC9 /* cubliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E846205A1E760A100072FFC9 /* Build configuration list for PBXNativeTarget "cubliTests" */;
+			buildPhases = (
+				E846203F1E760A100072FFC9 /* Sources */,
+				E84620401E760A100072FFC9 /* Frameworks */,
+				E84620411E760A100072FFC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E84620451E760A100072FFC9 /* PBXTargetDependency */,
+			);
+			name = cubliTests;
+			productName = cubliTests;
+			productReference = E84620431E760A100072FFC9 /* cubliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E846204D1E760A100072FFC9 /* cubliUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E846205D1E760A100072FFC9 /* Build configuration list for PBXNativeTarget "cubliUITests" */;
+			buildPhases = (
+				E846204A1E760A100072FFC9 /* Sources */,
+				E846204B1E760A100072FFC9 /* Frameworks */,
+				E846204C1E760A100072FFC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E84620501E760A100072FFC9 /* PBXTargetDependency */,
+			);
+			name = cubliUITests;
+			productName = cubliUITests;
+			productReference = E846204E1E760A100072FFC9 /* cubliUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E84620211E760A100072FFC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Kenny Testa";
+				TargetAttributes = {
+					E84620281E760A100072FFC9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M4TN2QX7K6;
+						ProvisioningStyle = Automatic;
+					};
+					E84620421E760A100072FFC9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M4TN2QX7K6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E84620281E760A100072FFC9;
+					};
+					E846204D1E760A100072FFC9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M4TN2QX7K6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E84620281E760A100072FFC9;
+					};
+				};
+			};
+			buildConfigurationList = E84620241E760A100072FFC9 /* Build configuration list for PBXProject "cubli" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E84620201E760A100072FFC9;
+			productRefGroup = E846202A1E760A100072FFC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E84620281E760A100072FFC9 /* cubli */,
+				E84620421E760A100072FFC9 /* cubliTests */,
+				E846204D1E760A100072FFC9 /* cubliUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E84620271E760A100072FFC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84620381E760A100072FFC9 /* Main.storyboard in Resources */,
+				E846202F1E760A100072FFC9 /* GameScene.sks in Resources */,
+				E846203A1E760A100072FFC9 /* Assets.xcassets in Resources */,
+				E846203D1E760A100072FFC9 /* LaunchScreen.storyboard in Resources */,
+				E84620311E760A100072FFC9 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84620411E760A100072FFC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E846204C1E760A100072FFC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E84620251E760A100072FFC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84620331E760A100072FFC9 /* GameScene.swift in Sources */,
+				E84620351E760A100072FFC9 /* GameViewController.swift in Sources */,
+				E846202D1E760A100072FFC9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E846203F1E760A100072FFC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84620481E760A100072FFC9 /* cubliTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E846204A1E760A100072FFC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84620531E760A100072FFC9 /* cubliUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E84620451E760A100072FFC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E84620281E760A100072FFC9 /* cubli */;
+			targetProxy = E84620441E760A100072FFC9 /* PBXContainerItemProxy */;
+		};
+		E84620501E760A100072FFC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E84620281E760A100072FFC9 /* cubli */;
+			targetProxy = E846204F1E760A100072FFC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E84620361E760A100072FFC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E84620371E760A100072FFC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E846203B1E760A100072FFC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E846203C1E760A100072FFC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E84620551E760A100072FFC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E84620561E760A100072FFC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E84620581E760A100072FFC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M4TN2QX7K6;
+				INFOPLIST_FILE = cubli/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KennyTesta.cubli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E84620591E760A100072FFC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M4TN2QX7K6;
+				INFOPLIST_FILE = cubli/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KennyTesta.cubli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E846205B1E760A100072FFC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M4TN2QX7K6;
+				INFOPLIST_FILE = cubliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KennyTesta.cubliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cubli.app/cubli";
+			};
+			name = Debug;
+		};
+		E846205C1E760A100072FFC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M4TN2QX7K6;
+				INFOPLIST_FILE = cubliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KennyTesta.cubliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cubli.app/cubli";
+			};
+			name = Release;
+		};
+		E846205E1E760A100072FFC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = M4TN2QX7K6;
+				INFOPLIST_FILE = cubliUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KennyTesta.cubliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = cubli;
+			};
+			name = Debug;
+		};
+		E846205F1E760A100072FFC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = M4TN2QX7K6;
+				INFOPLIST_FILE = cubliUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KennyTesta.cubliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = cubli;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E84620241E760A100072FFC9 /* Build configuration list for PBXProject "cubli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84620551E760A100072FFC9 /* Debug */,
+				E84620561E760A100072FFC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E84620571E760A100072FFC9 /* Build configuration list for PBXNativeTarget "cubli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84620581E760A100072FFC9 /* Debug */,
+				E84620591E760A100072FFC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E846205A1E760A100072FFC9 /* Build configuration list for PBXNativeTarget "cubliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E846205B1E760A100072FFC9 /* Debug */,
+				E846205C1E760A100072FFC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E846205D1E760A100072FFC9 /* Build configuration list for PBXNativeTarget "cubliUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E846205E1E760A100072FFC9 /* Debug */,
+				E846205F1E760A100072FFC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E84620211E760A100072FFC9 /* Project object */;
+}
